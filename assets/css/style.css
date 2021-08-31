@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: "Inconsolata";
+    font-size: 15px;
+    line-height: 1.5;
+    background-color: rgb(245, 244, 239);
+}
+
+#nav {
+    list-style-type: none;
+    background-color: #000;
+    overflow: hidden;
+    padding: 8px 16px;
+}
+
+#nav li {
+    float: left;
+    width: 25%;
+}
+
+#nav li a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 16px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 15px;
+}
+
+#nav li a:hover {
+    color: #000;
+    background-color: #ccc;
+}
+
+#header-img {
+    position: relative;
+    padding-top: 50%;
+    background: url('../image/header-img.jpg') top center / cover no-repeat;
+    filter: grayscale(50%);
+}
+
+#header-img .text-center,
+#header-img .text-left,
+#header-img .text-right {
+    position: absolute;
+    color: #fff;
+    text-align: center;
+}
+
+#header-img .text-center {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 90px;
+    font-weight: 300;
+    opacity: 0.9;
+    letter-spacing: 8px;
+}
+#header-img .text-left,
+#header-img .text-right {
+    padding: 4px 8px;
+    margin: 12px 24px;
+    opacity: 0.8;
+    display: inline-block;
+}
+
+#header-img .text-left{
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+}
+
+#header-img .text-right {
+    bottom: 0;
+    right: 0;  
+}
+
+#container  {
+    
+}
+
+#content {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 700px;
+    font-size: 18px;
+}
+
+.title-content {
+    padding: 74px 0;
+    text-align: center;
+    font-weight: 300;
+}
+
+.title-content .title {
+    color: #fff;
+    background-color: #000;
+    display: inline-block;
+    padding: 0 8px;
+    letter-spacing: 4px;
+}
+
+#about .par-about {
+    text-align: justify;
+    margin: 18px 0;
+}
+
+#about .par-scroll {
+    border-left: 6px solid #ccc;
+    padding: 16px;
+    background-color: #f1f1f1;
+    font-size: 18px;
+}
+
+.img100 {
+    width: 100%;
+    filter: grayscale(50%);
+    max-width: 1000px;
+    margin-top: 32px;
+}
+
+#about .contact-about {
+    margin: 18px 0;
+    text-align: justify;
+}
+
+#menu .head-menu {
+    padding: 8px 16px;
+    min-height: 46px;
+    box-shadow: 0 5px 5px 0 rgb(0 0 0 / 16%);
+}
+
+#menu .head-menu p {
+    float: left;
+    width: 50%;
+    text-align: center;
+    
+}
+
+#menu .head-menu .col-choose {
+    background-color: #616161;
+    color: #fff;
+}
+
+#menu #menu-eat {
+    width: 100%;
+    padding: 48px 16px;
+    box-shadow: 0 5px 5px 0 rgb(0 0 0 / 16%);
+}
+
+#menu #menu-eat h5 {
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+#menu #menu-eat p {
+    margin: 18px 0;
+    font-size: 18px;
+    word-spacing: 4px;
+    color: #888;
+}
+
+#where p {
+    margin-top: 18px;
+}
+
+#where .where-before::before {
+    content: "FYI!";
+    background-color: #000;
+    color: #fff;
+    padding: 0 4px;
+}
+
+#where .input-where {
+    width: 100%;
+    padding: 16px 4px;
+    border: 1px solid #ccc;
+}
+
+#where .button-where {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#where .button-where:hover {
+    color: #000;
+    background-color: #ccc;
+}
+
+#footer {
+    text-align: center;
+    padding: 48px 0;
+    text-decoration: none;
+    color: #000;
+}
+
